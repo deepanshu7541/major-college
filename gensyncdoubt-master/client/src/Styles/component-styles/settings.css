@@ -1,0 +1,28 @@
+.settingsCard {
+	display: flex;
+}
+
+.settingsForm {
+	width: 100%;
+	margin: 4vh;
+}
+
+.heading2{
+	margin-top: 2vh;
+	width: 100%;
+}
+
+.settingsName {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nameSize {
+	width: 55%;
+	margin-bottom: -18px;
+}
+
+.deleteButton{
+	width: 100%;
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "Name":"Chayan Sharma",
+        "Branch":"CSE",
+        "Company":"Google",
+        "Package":"66 LPA",
+        "Profile":"https://media.licdn.com/dms/image/C4D03AQGcOKG6RhUlOA/profile-displayphoto-shrink_400_400/0/1659318685201?e=1707350400&v=beta&t=WTRfeDcC1I4hANnIcv5hXNxuKAi4nsBmk-0UKjAU8f8",
+        "LinkedInURL":"https://www.linkedin.com/in/chayan-sharma-81692617a/?originalSubdomain=in"
+    },
+    {
+        "Name":"Neha Bedi",
+        "Branch":"CSE",
+        "Company":"Google",
+        "Package":"66 LPA",
+        "Profile":"",
+        "LinkedInURL":"https://www.linkedin.com/in/18nehabedi/"
+    },
+    {
+        "Name":"Rishab Gupta",
+        "Branch":"IT",
+        "Company":"Zomato",
+        "Package":"45 LPA",
+        "Profile":"https://media.licdn.com/dms/image/D4D35AQFEQ2q5No4LiA/profile-framedphoto-shrink_800_800/0/1654750336911?e=1702684800&v=beta&t=yELscfaUfxFqGMklmos7HvXPRieS213cW60TfStF01o",
+        "LinkedInURL":"https://www.linkedin.com/in/rishabh-gupta-9039701bb/"
+    },
+    {
+        "Name":"Aryan Chauhan",
+        "Branch":"IT",
+        "Company":"Amazon",
+        "Package":"44 LPA",
+        "Profile":"https://media.licdn.com/dms/image/D4D03AQGETeaF4Yg03Q/profile-displayphoto-shrink_800_800/0/1670873851066?e=1707350400&v=beta&t=62njRiTq_Mky9YeylT9Lm07eyUPGeMpHnDyOiAf0nI8",
+        "LinkedInURL":"https://www.linkedin.com/in/aryan-chauhan-856a4b192/"
+    },
+    {
+        "Name":"Ashish Chowdhary",
+        "Branch":"CSE",
+        "Company":"Amazon",
+        "Package":"44 LPA",
+        "Profile":"https://media.licdn.com/dms/image/C5603AQEgunoLGsQo6A/profile-displayphoto-shrink_800_800/0/1616479432858?e=1707350400&v=beta&t=VK9LMvYcISCvQzgrqQXpbbOKv9ir2fmgUVu47o0fqlE",
+        "LinkedInURL":"https://www.linkedin.com/in/ashish-choudhary-168b5416"
+    },
+    {
+        "Name":"Bhagesh Bhutani",
+        "Branch":"CSE",
+        "Company":"Amazon",
+        "Package":"44 LPA",
+        "Profile":"https://media.licdn.com/dms/image/C4D03AQFPu9Z1qPwY6g/profile-displayphoto-shrink_800_800/0/1656240772311?e=1707350400&v=beta&t=kZITbyzElGUJV3aZDd9JgvgzeWB9V2yrNWPGlYneiqE",
+        "LinkedInURL":"https://www.linkedin.com/in/bhagesh-bhutani-5678201a0/"
+    },
+    {
+        "Name":"Saksham Arora",
+        "Branch":"CSE",
+        "Company":"Amazon",
+        "Package":"44 LPA",
+        "Profile":"https://media.licdn.com/dms/image/C4E03AQEGZ5k9_zhVyw/profile-displayphoto-shrink_800_800/0/1623924904042?e=1707350400&v=beta&t=ke8N63T8lkomyBxU75qTEHjLDGdcLG-Kao97ZkrLDZE",
+        "LinkedInURL":"https://www.linkedin.com/in/saksham-arora-35a262176/"
+    },
+    {
+        "Name":"Sanjay Joshi",
+        "Branch":"ECE",
+        "Company":"Amazon",
+        "Package":"44 LPA",
+        "Profile":"https://media.licdn.com/dms/image/D5603AQFyuWiLbxk3Xw/profile-displayphoto-shrink_800_800/0/1700337042677?e=1707350400&v=beta&t=wgdvQGRI11kUYvx8VypTG8N88EnV4ovr8iSj87OYsKw",
+        "LinkedInURL":"https://www.linkedin.com/in/fitcodes/"
+    },
+    {
+        "Name":"Samyak Jain",
+        "Branch":"ECE",
+        "Company":"Amazon",
+        "Package":"44 LPA",
+        "Profile":"https://media.licdn.com/dms/image/C4D03AQHWbtLwAJvmAA/profile-displayphoto-shrink_800_800/0/1589826242154?e=1707350400&v=beta&t=i8wwjMDHB2kElFxX51yHy7_LGHwEIMUFsEqFYKalgY8",
+        "LinkedInURL":"https://www.linkedin.com/in/samyak-jain-5445671a9/"
+    },
+    {
+        "Name":"Shantanu Singh",
+        "Branch":"ECE",
+        "Company":"Amazon",
+        "Package":"44 LPA",
+        "Profile":"https://media.licdn.com/dms/image/D4D03AQGxq6QN1cW94Q/profile-displayphoto-shrink_800_800/0/1682351043299?e=1707350400&v=beta&t=2Mt0_wEAGQ4iXykf5l1WYyvVTOOkWzWAfACI5ztMsQU",
+        "LinkedInURL":"https://www.linkedin.com/in/03singhshantanu/"
+    }
+]

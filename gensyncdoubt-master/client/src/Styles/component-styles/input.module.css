@@ -1,0 +1,57 @@
+/*Input Styles*/
+.inputParent {
+	margin: 18px 0;
+	background-color: var(--input-background);
+	height: 63px;
+	width: 100%;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	transition: 0.3s border ease;
+}
+
+.inputParent svg {
+	margin: 0 20px;
+}
+.inputParent:hover {
+	border: 2px solid black;
+}
+
+.inputParent:focus-within {
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.formInput {
+	border: none;
+	background: transparent;
+	outline: none;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: 500;
+	color: var(--input-color);
+	margin: 0;
+	width: 100%;
+	height: 20px;
+	padding: 0;
+	position: relative;
+}
+
+.formInput:focus {
+	border: none;
+}
+
+.formInput::placeholder {
+	color: var(--input-placeholder);
+	border: none;
+}
+
+svg {
+	color: #333;
+}
+
+.inputHeading {
+	font-size: 13px;
+	color: var(--input-placeholder);
+}

@@ -1,0 +1,46 @@
+{
+  "name": "doubthub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "nodemon": "nodemon server",
+    "start": "node server.js",
+    "client": "npm start --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "both": "concurrently \"npm run nodemon\" \" npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavmathur1/DoubtHub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghavmathur1/DoubtHub/issues"
+  },
+  "homepage": "https://github.com/raghavmathur1/DoubtHub#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "concurrently": "^7.0.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "nanoid": "^3.2.0",
+    "nodemon": "^2.0.22",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "passport-mock-strategy": "^2.0.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.8.1",
+    "react-loader-spinner": "^5.1.4",
+    "schema": "^0.2.1",
+    "validator": "^13.7.0"
+  }
+}

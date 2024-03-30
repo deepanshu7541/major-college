@@ -1,0 +1,288 @@
+/* profile.module.css */
+
+/* Container styles */
+.profileContainer {
+  padding-top: 20%;
+    max-width: 100%;
+    /* margin-top: ; */
+    padding: 20px;
+    box-sizing: border-box;
+    
+    background-color: white;
+/* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+/* background-color: #edff00;
+background-image: linear-gradient(90deg, #edff00 0%, #F76B1C 50%, #ff0201 100%); */
+
+
+  }
+  
+  /* Profile header styles */
+  .profileHeader {
+    padding-top: 5%;
+    text-align: center;
+    color: #333;
+    /* background-color: #edff00;
+background-image: linear-gradient(90deg, #edff00 0%, #F76B1C 50%, #ff0201 100%); */
+
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Editable fields styles */
+  .editableFields {
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: -1px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 5%;
+    
+  }
+  
+  .formGroup input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out; /* Add a smooth transition effect for better user experience */
+    margin-left: 5%;
+    
+  
+    /* Improve focus styles */
+    &:focus {
+      border-color: #ff2121;
+      outline: none;
+      /* background-color: #9a9a9a; */
+    }
+  }
+
+  .formGroup:hover {
+    /* background-color: #0056b3; */
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+ 
+}
+  
+  .saveButtons {
+    padding: 15px 80px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    height: 10%;
+    margin-top: 4%;
+    margin-left: 40%;
+
+
+    /* padding: 15px 80px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    height: 10%;
+    margin-top: 4%;
+    margin-left: 7%; */
+
+  }
+  
+    /* Improve hover effect */
+    .saveButtons:hover {
+        background-color: #0056b3;
+     
+    }
+  
+  /* Add similar styling for other buttons if needed */
+  
+  
+  /* Display fields styles */
+  .displayFields {
+    text-align: center;
+  }
+  
+/* Profile content wrapper */
+.profileContent {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Left column (profile image) */
+  .leftColumn {
+    flex: 1;
+    text-align: center; /* Center the image horizontally */
+  }
+
+  .profileImage {
+    max-width: 280px; /* Set your desired max-width */
+    max-height: 100%; /* Set your desired max-height */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: aqua;
+    z-index: 2;
+    position: absolute;
+    /* margin-top: %; */
+    margin-left: 2%;
+  }
+  .profileImages {
+    
+        position: absolute;
+        background-color: aqua;
+        z-index: 1;
+        position: absolute;
+        height: 30%;
+        width: 100%;
+        margin-top: -2%;
+        left: 0;
+  }
+
+  .profileinfo{
+    margin-top: 1%;
+  text-align: left;
+  margin-left: 12%;
+  width: 25%;
+  position: relative;
+  float: left;
+  margin-bottom: 10%;
+  justify-content: space-between;
+    
+  }
+
+  .profileinfo1{
+    margin-top: 5%;
+    /* text-align: right; 
+    margin-left: 4%;
+    width: 20%;
+    /* position: relative; */
+    /* justify-content: left; */
+    width: 94%;
+    margin-right: 5%;
+   
+   
+  }
+
+  .qwerty{
+    color: #0056b3;
+    border: 10px blue solid;
+  }
+
+  .a{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    box-shadow: 3px 3px 3px rgb(104, 96, 96);
+    margin-bottom: 7%;
+    margin-top: 1%;
+    
+
+  }
+
+  .a:hover {
+    /* background-color: #0056b3; */
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+ 
+}
+
+  .b{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    box-shadow: 3px 3px 3px rgb(104, 96, 96);
+    text-align: left;
+    margin-left: 74%;
+    margin-bottom: 1.1%;
+    margin-top: 2%;
+
+  }
+
+  .b:hover {
+    /* background-color: #0056b3; */
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+ 
+}
+
+  .profileborder{
+    /* border: 4px solid rgb(0, 0, 0);
+    border-style: double;
+    margin-top: 20%;
+    box-shadow: 3px 3px 1px rgb(104, 96, 96); */
+    margin-top: 20%;
+    
+    
+   
+  }
+
+
+  .pro1{
+    text-align: right;
+    display: inline;
+  }
+
+
+/* Right column (profile information) */
+.rightColumn {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  /* Profile header styles */
+  .profileHeader {
+    color: #333;
+  }
+  
+  /* Editable fields styles */
+  .editableFields {
+    margin-bottom: 20px;
+  }
+
+  
+  .displayFields p {
+    margin-bottom: 8px;
+    color: #444;
+  }
+  
+  /* Button styles */
+  .saveButton,
+  .editButton,
+  .logoutButton {
+    padding: 15px 80px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    height: 10%;
+    margin-top: 4%;
+    margin-left: 7%;
+  }
+  
+  .saveButton:hover,
+  .editButton:hover,
+  .logoutButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Logout button styles */
+  .logoutButton {
+    background-color: #dc3545;
+    height: 40%;
+    margin-left: 6%;
+  }
+  
+  .logoutButton:hover {
+    background-color: #c82333;
+  }

@@ -1,0 +1,52 @@
+.maindiv{
+    /* display: flex; */
+    /* position: absolute; */
+    /* left: 50%; */
+    /* right: 50%; */
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    /* border: 2px purple solid; */
+}
+.headi{
+    margin-top: 6%;
+}
+.content{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 30vh;
+    /* border: 3px blue solid; */
+}
+.content h1{
+    position:absolute;
+    left: 50%;
+    right: 50%;
+    top: 5%;
+    /* margin-left: 50%; */
+    /* margin-right: 50%; */
+    /* margin-top: 50%; */
+}
+
+.focus{
+    text-decoration: none;
+    color: darkblue;
+}
+.focus:hover{
+    color: white;
+}
+.lists:hover{
+    /* border: 4px green solid; */
+    text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: grey;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  /* color: white; */
+}
+.lists:hover lists{
+    color: white;
+}

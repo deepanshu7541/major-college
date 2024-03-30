@@ -1,0 +1,113 @@
+.newQuestion {
+	display: flex;
+	width: 60%;
+	margin-bottom: 4vh;
+	height: 18vh;
+	overflow: hidden;
+	transition: all 0.5s ease-in-out;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 4vh;
+	position: relative;
+}
+
+.heading {
+	margin-bottom: 2vh;
+	font-size: 2.2vh;
+	font-weight: 700;
+}
+
+.Input {
+	background-color: var(--input-background);
+	color: var(--font-color);
+	border-radius: 6px;
+	padding: 1.5vh;
+	width: 100%;
+	outline: none;
+	border: 0;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.textArea {
+	background-color: transparent;
+	outline: none;
+	border: 0;
+	font-family: inherit;
+	font-size: 1.5vh;
+	letter-spacing: 1px;
+	margin: 2vh;
+	height: 90%;
+	width: 100%;
+	resize: none;
+	color: var(--font-color);
+}
+
+.bg {
+	background-color: var(--input-background);
+	height: 35vh;
+	display: flex;
+	border-radius: 6px;
+	width: 100%;
+	margin-bottom: 7vh;
+}
+
+.inputRow {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2vh;
+}
+
+.buttonStyle {
+	margin-left: 3vh;
+	height: 1vh;
+	max-width: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.filterBg {
+	bottom: 0;
+	position: absolute;
+	user-select: none;
+	height: 4vh;
+	width: 15vh;
+	background: transparent;
+	border: 1px solid #eff0f6;
+	border-radius: 1.2vh;
+	letter-spacing: 0.2vh;
+	font-size: 1.2vh;
+	color: black;
+	background: var(--background-color);
+	border: 1px solid var(--second-button);
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background 0.3s ease;
+	cursor: pointer;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+	transition-delay: 0.2s;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 4px;
+}
+
+.filterBg:active {
+	box-shadow: none;
+}
+
+.filterIcon {
+	width: 2vh;
+}
+
+@media screen and (max-width: 650px) {
+	.newQuestion {
+		width: 100%;
+	}
+}

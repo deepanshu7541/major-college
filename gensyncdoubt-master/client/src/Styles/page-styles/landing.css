@@ -1,0 +1,127 @@
+.landingContainer {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: var(--background-color);
+}
+
+.landingLeft {
+	width: 50vw;
+	height: 100%;
+	position: relative;
+	background-color: var(--background-color);
+}
+
+.landingRight {
+	width: 50vw;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.animateWid {
+	width: 52vw;
+	height: 100vh;
+	color: var(--font-color);
+	position: absolute;
+	transform: translateX(0);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	transition: all 1.5 cubic-bezier(0.66, 0.44, 0, 0.98);
+	background-color: var(--background-color);
+}
+
+.rightInside {
+	width: 50vw;
+	height: 100vh;
+	background-size: 110%;
+	background-repeat: none !important;
+	overflow: hidden;
+	position: relative;
+}
+
+.rightInside > svg {
+	/* height: 100vh; */
+}
+
+.landingContent {
+	position: relative;
+	z-index: 2;
+	margin: 0 00px 0 120px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: all 0.5s ease;
+	transition-delay: 0.5s;
+}
+
+.landingHeading {
+	font-weight: 700;
+	font-size: 50px;
+	text-transform: capitalize;
+	color: var(--font-color);
+}
+
+.landingSubhead {
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: var(--font-color);
+	margin-bottom: 2vh;
+}
+
+.loginSign {
+	width: 35vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	cursor: pointer;
+}
+
+.landingButton {
+	margin: 0 20px 0 0;
+	font-size: 13px !important;
+}
+
+.logoLanding img {
+	width: 100%;
+	user-select: none;
+}
+
+.logoLanding {
+	position: absolute;
+	top: 5vh;
+	right: 5vh;
+	margin-left: 120px;
+	width: 12vw;
+	z-index: 50;
+	display: none;
+}
+
+.headingFull {
+	position: relative;
+	overflow-y: hidden;
+	height: 75px;
+	display: flex;
+	z-index: 5;
+}
+.subheadingFull {
+	position: relative;
+	overflow-y: hidden;
+	height: 25px;
+	display: flex;
+	z-index: 5;
+}
+.linkFull {
+	position: relative;
+	overflow-y: hidden;
+	height: 75px;
+	display: flex;
+	z-index: 5;
+}
