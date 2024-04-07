@@ -27,6 +27,7 @@ function Nav() {
           {isAuthenticated ? null : <Link to={'/login'}>Login</Link>  }
           {/* <Link to="/login">Login</Link> */}
           {console.log("profile visible")}
+          {isAuthenticated ?  <Link to={'http://localhost:3001/chats'}>Messag</Link> : null}
           {isAuthenticated ?  <Link to={'/profile'}>Profile</Link> : null}
         </div>
       </div>

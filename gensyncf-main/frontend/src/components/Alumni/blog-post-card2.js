@@ -36,11 +36,11 @@ const BlogPostCard2 = (props) => {
               src="https://static-00.iconduck.com/assets.00/social-instagram-icon-2048x2048-xuel0xhc.png"
               className={styles['image1']}
             />
-            <img
+            <a href='http://localhost:3001/chats'><img
               alt={props.profile_alt}
-              src="https://cdn.pixabay.com/photo/2021/05/22/11/38/whatsapp-6273368_1280.png"
+              src="https://cdn-icons-png.flaticon.com/128/134/134718.png"
               className={styles['image1']}
-            />
+            /></a>
             {/* <span className={styles['text4']}>{props.author}</span> */}
           </div>
         </div>

@@ -75,7 +75,7 @@
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
     object-fit: cover;
-    border-radius: var(--dl-radius-radius-round);
+    /* border-radius: var(--dl-radius-radius-round); */
   }
   .text4 {
     font-style: normal;

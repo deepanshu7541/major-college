@@ -32,13 +32,14 @@ function Homepage() {
         w="100%"
         m="40px 0 15px 0"
         borderRadius="lg"
-        borderWidth="1px"
+        borderWidth="4px"
+        borderColor={"black"}
       >
-        <Text fontSize="4xl" fontFamily="Work sans">
-          Talk-A-Tive
+        <Text fontSize="4xl" fontFamily="Aptos">
+          GenTalk
         </Text>
       </Box>
-      <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">
+      <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="4px" borderColor={"black"}>
         <Tabs isFitted variant="soft-rounded">
           <TabList mb="1em">
             <Tab>Login</Tab>

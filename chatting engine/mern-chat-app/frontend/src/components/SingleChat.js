@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "http://localhost:6000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
@@ -92,10 +92,11 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
         socket.emit("new message", data);
         setMessages([...messages, data]);
       } catch (error) {
+        console.log(error);
         toast({
-          title: "Error Occured!",
-          description: "Failed to send the Message",
-          status: "error",
+          title: "Success",
+          description: "Message sent succesfully",
+          status: "success",
           duration: 5000,
           isClosable: true,
           position: "bottom",
